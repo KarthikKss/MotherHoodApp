@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "702275917480",
+    "firebase_url": "https://motherhood-d242a.firebaseio.com",
+    "project_id": "motherhood-d242a",
+    "storage_bucket": "motherhood-d242a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702275917480:android:13df38698cec070f",
+        "android_client_info": {
+          "package_name": "com.starktech.motherhood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702275917480-aiu5ctplccsa6pab8gqjs2vt4sqmv1l3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.starktech.motherhood",
+            "certificate_hash": "aceeaf5e5d2db146c470b210f4cde744935b986a"
+          }
+        },
+        {
+          "client_id": "702275917480-mkddjms26c781e9skr0ctpc7r002njui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiVeHylkVp9UygO0JjNyNpOVUnRPlkNSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702275917480-mkddjms26c781e9skr0ctpc7r002njui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

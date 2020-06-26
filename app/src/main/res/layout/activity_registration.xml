@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Registration">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Sign up. Its free!"
+        android:textColor="#55B5FF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:padding="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="6dp"
+            android:hint="Name"
+            android:drawableLeft="@drawable/nameicon"
+            android:textColor="#55B5FF"
+            android:textColorHint="#55B5FF" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <RadioGroup
+                android:id="@+id/momornot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Are you a Mother?"
+                    android:textColor="#55B5FF" />
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textColor="#55B5FF" />
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:textColor="#55B5FF" />
+
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/kidstext"
+                android:layout_height="wrap_content"
+                android:text="Select Number of kids"
+                android:padding="8dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="13dp"
+                android:textColor="#55B5FF" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kidsspinner"
+                android:layout_marginTop="15dp"
+                >
+
+            </Spinner>
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/pregornot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are you Pregnant?"
+                android:textColor="#55B5FF" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textColor="#55B5FF" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textColor="#55B5FF" />
+
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableLeft="@drawable/birthdayicon"
+            android:text="Birthday"
+            android:drawablePadding="10dp"
+            android:textColor="#55B5FF" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/locicon"
+            android:drawablePadding="10dp"
+            android:hint="Location"
+            android:textColor="#55B5FF"
+            android:textColorHint="#55B5FF" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/emailicon"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:textColor="#55B5FF"
+            android:textColorHint="#55B5FF" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/passwordicon"
+            android:hint="Password"
+            android:textColor="#55B5FF"
+            android:drawablePadding="10dp"
+            android:textColorHint="#55B5FF" />
+
+
+        <Button
+            android:id="@+id/regisbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_button"
+            android:elevation="10dp"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="#FFF" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+

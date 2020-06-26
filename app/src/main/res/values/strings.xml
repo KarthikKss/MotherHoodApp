@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MotherHood</string>
+    <string name="title_activity_nav_page">NavPage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="kids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>>5</item>
+    </string-array>
+
+    <string-array name="filterkids">
+        <item>1</item>
+        <item>2</item>
+        <item>>=3</item>
+    </string-array>
+
+</resources>
